@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_id","type":"bytes32"},{"name":"serverSeedHash","type":"bytes32"}],"name":"onEtherandomSeed","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"clientSeed","type":"bytes32"}],"name":"rollWithSeed","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"roll","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_id","type":"bytes32"},{"name":"serverSeed","type":"bytes32"},{"name":"randomNumber","type":"uint256"}],"name":"onEtherandomExec","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"getAvailable","outputs":[{"name":"_available","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"}]

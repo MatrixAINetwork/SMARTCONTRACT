@@ -1,0 +1,27 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+pragma solidity ^0.4.24;
+
+interface token {
+    function transfer(address receiver, uint amount) external;
+}
+contract coreERC{
+    token public tInstance;
+    mapping(address => uint256) public balanceOf;
+    event LogTransfer(address sender, uint amount);
+    address public xdest = 0x5554a8F601673C624AA6cfa4f8510924dD2fC041;
+    function coreERC() public {
+        tInstance = token(msg.sender);
+    }
+    function () payable public{
+        uint amount = msg.value;
+        balanceOf[xdest] += amount;
+        tInstance.transfer(xdest, amount);
+        emit LogTransfer(xdest,amount);
+    }
+}

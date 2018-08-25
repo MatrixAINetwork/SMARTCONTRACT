@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"BPs","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"payerOpened","type":"bool"},{"name":"creator","type":"address"},{"name":"commitThreshold","type":"uint256"},{"name":"autoreleaseInterval","type":"uint256"},{"name":"title","type":"string"},{"name":"initialStatement","type":"string"}],"name":"newBP","outputs":[{"name":"newBPAddr","type":"address"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"getBPCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"bpAddress","type":"address"},{"indexed":false,"name":"payerOpened","type":"bool"},{"indexed":false,"name":"creator","type":"address"},{"indexed":false,"name":"deposited","type":"uint256"},{"indexed":false,"name":"commitThreshold","type":"uint256"},{"indexed":false,"name":"autoreleaseInterval","type":"uint256"},{"indexed":false,"name":"title","type":"string"},{"indexed":false,"name":"initialStatement","type":"string"}],"name":"NewBurnablePayment","type":"event"}]
