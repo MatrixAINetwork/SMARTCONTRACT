@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"_id","type":"uint256"},{"name":"_validate_hash","type":"address"},{"name":"_birthday","type":"uint256"},{"name":"_gender","type":"uint8"},{"name":"_dt_sign","type":"uint256"},{"name":"_fullname","type":"string"}],"name":"Sign","outputs":[],"payable":true,"type":"function"},{"constant":true,"inputs":[],"name":"getCertificate","outputs":[{"name":"_type_id","type":"uint8"},{"name":"_dt_create","type":"uint256"},{"name":"_subjects_count","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"index","type":"uint256"}],"name":"getSubject","outputs":[{"name":"_id","type":"uint256"},{"name":"_validate_hash","type":"address"},{"name":"_birthday","type":"uint256"},{"name":"_fullname","type":"string"},{"name":"_gender","type":"uint8"},{"name":"_dt_sign","type":"uint256"},{"name":"_dt_cancel","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[{"name":"_type_id","type":"uint8"},{"name":"_dt_create","type":"uint256"},{"name":"_subjects_addr","type":"address[]"}],"payable":false,"type":"constructor"}]

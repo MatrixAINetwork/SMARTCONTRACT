@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"a","type":"address"}],"name":"setOwner","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"i","type":"uint256"},{"name":"tag","type":"string"}],"name":"addTag","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"tag","type":"string"},{"name":"i","type":"uint256"}],"name":"getTag","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"i","type":"uint256"}],"name":"getLastTag","outputs":[{"name":"tag","type":"string"}],"type":"function"},{"constant":false,"inputs":[{"name":"a","type":"address"}],"name":"setSource","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"i","type":"uint256"}],"name":"readLog","outputs":[{"name":"","type":"address"},{"name":"","type":"string"},{"name":"","type":"address"}],"type":"function"},{"inputs":[],"type":"constructor"}]

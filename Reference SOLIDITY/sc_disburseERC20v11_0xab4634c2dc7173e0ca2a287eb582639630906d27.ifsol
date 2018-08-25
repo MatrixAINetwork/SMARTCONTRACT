@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"_owner","type":"address"}],"name":"setOwner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_tokenContract","type":"address"},{"name":"_contributors","type":"address[]"},{"name":"_contributions","type":"uint256[]"}],"name":"disburseToken","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_tokenContract","type":"address"},{"name":"_admin","type":"address"}],"name":"setAdmin","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_tokenContract","type":"address"},{"indexed":true,"name":"_contributors","type":"address[]"},{"indexed":false,"name":"_contributions","type":"uint256[]"},{"indexed":false,"name":"_amount","type":"uint256"}],"name":"Disbursement","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_tokenContract","type":"address"},{"indexed":true,"name":"_admin","type":"address"}],"name":"AdminSet","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_owner","type":"address"}],"name":"OwnerSet","type":"event"}]

@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[{"name":"_device","type":"address"},{"name":"_description","type":"string"}],"name":"getReputationProblems","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_device","type":"address"},{"name":"_description","type":"string"}],"name":"setReputationProblems","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_ambi2","type":"address"}],"name":"setupAmbi2","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"bytes32"}],"name":"reputationProblems","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_device","type":"address"},{"name":"_description","type":"string"}],"name":"reputationClear","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"device","type":"address"},{"indexed":false,"name":"description","type":"string"}],"name":"ReputationProblems","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"device","type":"address"},{"indexed":false,"name":"description","type":"string"}],"name":"ReputationClear","type":"event"}]

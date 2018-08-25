@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[],"name":"yearlyBlockCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_creditAmount","type":"uint256"},{"name":"_locktime","type":"uint256"}],"name":"getBondMultiplier","outputs":[{"name":"bondMultiplier","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_lockedBalance","type":"uint256"},{"name":"_blockDifference","type":"uint256"},{"name":"_percentReward","type":"uint256"}],"name":"getNewCoinsIssued","outputs":[{"name":"newCoinsIssued","type":"uint256"}],"payable":false,"type":"function"}]

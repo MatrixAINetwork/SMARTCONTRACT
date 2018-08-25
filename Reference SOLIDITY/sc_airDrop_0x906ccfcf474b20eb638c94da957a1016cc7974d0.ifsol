@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"contractaddress","type":"address"},{"name":"_from","type":"address"},{"name":"dsts","type":"address[]"},{"name":"value","type":"uint256"}],"name":"transferFrom","outputs":[{"name":"success","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"contractaddress","type":"address"},{"name":"dsts","type":"address[]"},{"name":"values","type":"uint256[]"}],"name":"airDropValues","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"contractaddress","type":"address"},{"name":"dsts","type":"address[]"}],"name":"dataMigration","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"contractaddress","type":"address"},{"name":"dsts","type":"address[]"},{"name":"value","type":"uint256"}],"name":"airDrop_","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]

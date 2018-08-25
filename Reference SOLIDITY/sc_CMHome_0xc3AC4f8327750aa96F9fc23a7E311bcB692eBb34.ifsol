@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"state","type":"uint8"},{"name":"_contract","type":"address"}],"name":"Auth","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"factory","outputs":[{"name":"Authorised","type":"bool"},{"name":"Controlled","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"_id","type":"uint32"},{"name":"_owner","type":"address"},{"name":"_contract","type":"address"}],"name":"RegisterOne","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"whitelist","outputs":[{"name":"Valid","type":"bool"},{"name":"Created","type":"bool"},{"name":"Abitration","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"_contract","type":"address"},{"name":"_factr","type":"address"}],"name":"RegisterTwo","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"control","type":"uint8"},{"name":"_factory","type":"address"}],"name":"Config","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint32"},{"name":"","type":"address"}],"name":"mycontracts","outputs":[{"name":"Created","type":"bool"},{"name":"Contr","type":"address"}],"type":"function"}]

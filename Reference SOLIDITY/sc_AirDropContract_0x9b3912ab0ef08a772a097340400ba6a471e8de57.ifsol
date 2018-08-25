@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"tokenAddress","type":"address"},{"name":"amount","type":"uint256"},{"name":"minTokenBalance","type":"uint256"},{"name":"maxTokenBalance","type":"uint256"},{"name":"minEthBalance","type":"uint256"},{"name":"maxEthBalance","type":"uint256"},{"name":"recipients","type":"address[]"}],"name":"drop","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"token","type":"address"},{"name":"addr","type":"address"},{"name":"minTokenBalance","type":"uint256"},{"name":"maxTokenBalance","type":"uint256"},{"name":"minEthBalance","type":"uint256"},{"name":"maxEthBalance","type":"uint256"}],"name":"isQualitifiedAddress","outputs":[{"name":"result","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"addr","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AirDropped","type":"event"}]

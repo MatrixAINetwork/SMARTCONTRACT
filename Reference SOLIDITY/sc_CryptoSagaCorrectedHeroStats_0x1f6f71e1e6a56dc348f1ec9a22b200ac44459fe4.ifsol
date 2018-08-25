@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[{"name":"_tokens","type":"uint256[]"}],"name":"getCorrectedTotalBPOfTokens","outputs":[{"name":"","type":"uint32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_tokenId","type":"uint256"}],"name":"getCorrectedStats","outputs":[{"name":"currentLevel","type":"uint32"},{"name":"currentExp","type":"uint32"},{"name":"currentStats","type":"uint32[5]"},{"name":"ivs","type":"uint32[5]"},{"name":"bp","type":"uint32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_address","type":"address"}],"name":"getCorrectedTotalBPOfAddress","outputs":[{"name":"","type":"uint32"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_heroContractAddress","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]

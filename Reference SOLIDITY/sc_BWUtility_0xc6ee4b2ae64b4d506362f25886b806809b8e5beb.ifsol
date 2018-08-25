@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[{"name":"_x1","type":"uint8"},{"name":"_y1","type":"uint8"},{"name":"_x2","type":"uint8"},{"name":"_y2","type":"uint8"}],"name":"isAdjacent","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"_x","type":"uint8"},{"name":"_y","type":"uint8"}],"name":"toTileId","outputs":[{"name":"","type":"uint16"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"_amount","type":"uint256"},{"name":"_multiple","type":"uint256"}],"name":"ceil","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"_tileId","type":"uint16"}],"name":"fromTileId","outputs":[{"name":"","type":"uint8"},{"name":"","type":"uint8"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"_claimer","type":"address"},{"name":"_attacker","type":"address"},{"name":"_defender","type":"address"},{"name":"_blockValue","type":"uint256"}],"name":"getBoostFromTile","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"}]
