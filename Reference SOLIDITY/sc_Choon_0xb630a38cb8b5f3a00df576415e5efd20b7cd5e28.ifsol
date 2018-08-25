@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"_authority","type":"address"}],"name":"setAuthority","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_active","type":"bool"}],"name":"setActive","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"receiver","type":"address"},{"name":"balance","type":"uint256"},{"name":"sig","type":"bytes"}],"name":"remit","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"payments","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"shutdown","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_notesContract","type":"address"},{"name":"_choonAuthority","type":"address"},{"name":"_admin","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"VoucherCashed","type":"event"}]

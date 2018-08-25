@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"participants","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"encoding_description","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"meetingDate","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"encoded_data","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"encoding_format","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"content_intro","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"formated_data_url","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"}]

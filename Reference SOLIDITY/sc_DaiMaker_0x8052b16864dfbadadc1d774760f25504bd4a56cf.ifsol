@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[],"name":"weth","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"maker","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"daiAmount","type":"uint256"},{"name":"cdpOwner","type":"address"},{"name":"daiOwner","type":"address"}],"name":"makeDai","outputs":[{"name":"cdpId","type":"bytes32"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"peth","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"dai","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_maker","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"daiOwner","type":"address"},{"indexed":true,"name":"cdpOwner","type":"address"},{"indexed":false,"name":"ethAmount","type":"uint256"},{"indexed":false,"name":"daiAmount","type":"uint256"}],"name":"MakeDai","type":"event"}]

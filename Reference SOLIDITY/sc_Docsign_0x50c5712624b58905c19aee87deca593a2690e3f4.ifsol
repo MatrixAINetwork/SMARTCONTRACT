@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[],"name":"getCount","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"a_document","outputs":[{"name":"version","type":"uint256"},{"name":"name","type":"string"},{"name":"creator","type":"address"},{"name":"hash","type":"string"},{"name":"date","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"_version","type":"uint256"},{"name":"_name","type":"string"},{"name":"_hash","type":"string"}],"name":"Add","outputs":[],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"}],"name":"Added","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"}],"name":"Created","type":"event"}]

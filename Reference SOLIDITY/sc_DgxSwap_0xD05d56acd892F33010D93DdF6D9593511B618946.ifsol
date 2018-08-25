@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"swapContracts","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[],"name":"totalCount","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"_weiprice","type":"uint256"}],"name":"createSwap","outputs":[{"name":"_success","type":"bool"}],"type":"function"},{"constant":true,"inputs":[{"name":"_id","type":"uint256"}],"name":"getSwap","outputs":[{"name":"_seller","type":"address"},{"name":"_contract","type":"address"},{"name":"_dgxbalance","type":"uint256"},{"name":"_weiprice","type":"uint256"},{"name":"_totalweiprice","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"sellers","outputs":[{"name":"","type":"address"}],"type":"function"},{"inputs":[],"type":"constructor"}]

@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[],"name":"terminate","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"refund","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"recipient","type":"address"},{"name":"tokens","type":"uint256"}],"name":"transfer","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"tokenBalanceOf","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"n","type":"uint256"},{"indexed":false,"name":"buyer","type":"address"}],"name":"notifySellToken","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"n","type":"uint256"},{"indexed":false,"name":"tokenHolder","type":"address"}],"name":"notifyRefundToken","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"n","type":"uint256"},{"indexed":false,"name":"sender","type":"address"},{"indexed":false,"name":"recipient","type":"address"}],"name":"notifyTranferToken","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"finalBalance","type":"uint256"}],"name":"notifyTerminate","type":"event"}]

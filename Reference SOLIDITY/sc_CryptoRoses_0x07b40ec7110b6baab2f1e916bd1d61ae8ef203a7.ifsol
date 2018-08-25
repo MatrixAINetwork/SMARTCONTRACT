@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":false,"inputs":[{"name":"s","type":"address"}],"name":"addAddWhitelist","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"gaddrHash","type":"bytes32"},{"name":"memo","type":"string"},{"name":"amntSent","type":"uint256"}],"name":"buyRoseGRLC","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"h","type":"bytes32"}],"name":"checkRose","outputs":[{"name":"","type":"bool"},{"name":"","type":"uint256"},{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"memo","type":"string"}],"name":"buyRoseETH","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"inputs":[{"name":"_name","type":"bytes32"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]

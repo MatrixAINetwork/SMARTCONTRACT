@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[{"name":"self","type":"uint8"}],"name":"cardEmojified","outputs":[{"name":"","type":"uint8"},{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"self","type":"DeckLib.Deck storage"},{"name":"gameID","type":"uint256"}],"name":"init","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"self","type":"uint8"}],"name":"cardDescription","outputs":[{"name":"","type":"DeckLib.Suit"},{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"self","type":"DeckLib.Deck storage"},{"name":"blockNumber","type":"uint256"}],"name":"getCard","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"self","type":"uint8"}],"name":"cardFacevalue","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"self","type":"uint8"}],"name":"blackjackValue","outputs":[{"name":"","type":"uint8"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"b","type":"uint256"},{"name":"player","type":"address"},{"name":"gameID","type":"uint256"},{"name":"n","type":"uint256"},{"name":"m","type":"uint256"}],"name":"getRandomNumber","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"}]

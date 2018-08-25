@@ -1,8 +1,0 @@
-/**********************************************************************
-*These solidity codes have been obtained from Etherscan for extracting
-*the smartcontract related info.
-*The data will be used by MATRIX AI team as the reference basis for
-*MATRIX model analysis,extraction of contract semantics,
-*as well as AI based data analysis, etc.
-**********************************************************************/
-[{"constant":true,"inputs":[],"name":"TOKEN_ADDRESS","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_initial_balance","type":"uint256"},{"name":"_days_elapsed","type":"uint256"}],"name":"calculateDemurrage","outputs":[{"name":"_demurrage_fees","type":"uint256"},{"name":"_no_demurrage_fees","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"TOKEN_INFORMATION_ADDRESS","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_token_address","type":"address"},{"name":"_token_information_address","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]
