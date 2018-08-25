@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"seed","type":"bytes32"},{"name":"seedHash","type":"bytes32"}],"name":"verifySeed","outputs":[{"name":"correct","type":"bool"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"bet","type":"uint256"},{"name":"number","type":"uint256"},{"name":"limit","type":"uint256"},{"name":"rollBelow","type":"bool"}],"name":"determineOutcome","outputs":[{"name":"win","type":"uint256"},{"name":"loss","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"}]

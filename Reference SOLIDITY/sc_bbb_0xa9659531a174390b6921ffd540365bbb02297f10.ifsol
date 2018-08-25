@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"AmountToWithdraw","type":"uint256"}],"name":"Withdraw","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"EmailAddress","type":"string"},{"name":"Message","type":"string"}],"name":"SendEmail","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"Kill","outputs":[],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"Sender","type":"address"},{"indexed":false,"name":"PricePaid","type":"uint256"},{"indexed":false,"name":"EmailAddress","type":"string"},{"indexed":false,"name":"Message","type":"string"}],"name":"EmailSent","type":"event"}]

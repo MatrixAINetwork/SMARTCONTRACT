@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[],"name":"abort","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"mintAllBonuses","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"withdrawFundsAndStartToken","outputs":[],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"msgSender","type":"address"}],"name":"FundsWithdrawnAndTokenStareted","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"msgSender","type":"address"}],"name":"BonusesAllMinted","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"msgSender","type":"address"}],"name":"Aborted","type":"event"}]

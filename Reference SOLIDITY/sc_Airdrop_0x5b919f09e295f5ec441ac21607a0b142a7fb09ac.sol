@@ -1,0 +1,39 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+pragma solidity ^0.4.23;
+
+interface TokenContract {
+  function transfer(address _to, uint256 _value) external returns (bool);
+}
+
+contract Airdrop {
+  address public owner;
+  bool public isTheContract = true;
+
+  constructor() public {
+  
+    owner = msg.sender;
+  }
+
+  function sendTokens(address[] addresses, uint256[] _amount, address _tokenAddress) public {
+    //require(msg.sender == owner);
+    uint256 addressCount = addresses.length;
+    uint256 amountCount = _amount.length;
+    require(addressCount == amountCount);
+    TokenContract tkn = TokenContract(_tokenAddress);
+    for (uint256 i = 0; i < addressCount; i++) {
+      tkn.transfer(addresses[i], _amount[i]);
+    }
+  }
+
+  function destroyMe() public {
+    require(msg.sender == owner);
+    selfdestruct(owner);
+  }
+    
+}
