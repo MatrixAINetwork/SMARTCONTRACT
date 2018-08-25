@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"shapes","type":"string"},{"name":"colorsPrimary","type":"string"},{"name":"colorsSecondary","type":"string"},{"name":"positions","type":"string"}],"name":"register","outputs":[{"name":"avatarHash","type":"bytes32"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"avatarHash","type":"bytes32"}],"name":"isExists","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"avatarHash","type":"bytes32"}],"name":"get","outputs":[{"name":"shapes","type":"bytes32"},{"name":"colorsPrimary","type":"bytes32"},{"name":"colorsSecondary","type":"bytes32"},{"name":"positions","type":"bytes32"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"avatarHash","type":"bytes32"}],"name":"getOwner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"}]

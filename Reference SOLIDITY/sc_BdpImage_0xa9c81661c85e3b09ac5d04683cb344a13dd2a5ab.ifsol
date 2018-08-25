@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"_contracts","type":"address[16]"},{"name":"_regionId","type":"uint256"},{"name":"_imageId","type":"uint256"},{"name":"_imageData","type":"uint256[]"},{"name":"_swapImages","type":"bool"},{"name":"_clearImage","type":"bool"}],"name":"checkImageInput","outputs":[],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_contracts","type":"address[16]"},{"name":"_imageId","type":"uint256"},{"name":"_owner","type":"address"}],"name":"setImageOwner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_contracts","type":"address[16]"},{"name":"_regionId","type":"uint256"},{"name":"_part","type":"uint16"},{"name":"_partsCount","type":"uint16"},{"name":"_imageDescriptor","type":"uint16"},{"name":"_imageData","type":"uint256[]"}],"name":"setNextImagePart","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_contracts","type":"address[16]"},{"name":"_imageId","type":"uint256"},{"name":"_part","type":"uint16"},{"name":"_imageData","type":"uint256[]"}],"name":"setImageData","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]
