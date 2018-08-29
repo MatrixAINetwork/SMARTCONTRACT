@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"numMessages","type":"uint256"}],"name":"markRead","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"markAllRead","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_address","type":"address"},{"name":"messageNumber","type":"uint256"}],"name":"getInbox","outputs":[{"name":"messages","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"messageNumber","type":"uint256"}],"name":"deleteMessage","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"recipient","type":"address"},{"name":"message","type":"string"}],"name":"sendMessage","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"deleteAllMessages","outputs":[],"payable":false,"type":"function"}]
