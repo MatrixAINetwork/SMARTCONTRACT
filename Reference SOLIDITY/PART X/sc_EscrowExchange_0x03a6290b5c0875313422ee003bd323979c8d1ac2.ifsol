@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"course","type":"uint256"},{"name":"tokenContractAddress","type":"address"}],"name":"setTokenForSale","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"sellerAddress","type":"address"}],"name":"buyToken","outputs":[{"name":"","type":"bool"}],"payable":true,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"tokenSellData","outputs":[{"name":"course","type":"uint256"},{"name":"tokenContractAddress","type":"address"}],"payable":false,"type":"function"}]
