@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"guid","type":"string"},{"name":"hash","type":"string"}],"name":"Sign","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"guid","type":"string"},{"name":"signer","type":"address"}],"name":"GetSign","outputs":[{"name":"sign","type":"bytes32"},{"name":"signedVersion","type":"uint8"},{"name":"timestamp","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"x","type":"address"}],"name":"toString","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"x","type":"bytes32"}],"name":"bytes32ToString","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"guid","type":"string"},{"name":"signer","type":"address"},{"name":"version","type":"uint256"}],"name":"GetSignVersion","outputs":[{"name":"sign","type":"bytes32"},{"name":"signedVersion","type":"uint8"},{"name":"timestamp","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}]

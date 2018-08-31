@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_results","type":"uint8[4]"}],"name":"fireFightResultsEvents","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"Kill","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"fight_number","type":"uint256"},{"indexed":true,"name":"player_1","type":"address"},{"indexed":true,"name":"player_2","type":"address"},{"indexed":false,"name":"p1_strategy","type":"uint128"},{"indexed":false,"name":"p2_strategy","type":"uint128"},{"indexed":false,"name":"_a1_interface_ID","type":"uint32"},{"indexed":false,"name":"_a1_ID","type":"uint256"},{"indexed":false,"name":"_a2_interface_ID","type":"uint32"},{"indexed":false,"name":"_a2_ID","type":"uint256"},{"indexed":false,"name":"results","type":"uint8"}],"name":"Fight_Results","type":"event"}]

@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"id","type":"uint256"}],"name":"getParticipantById","outputs":[{"name":"inviter","type":"address"},{"name":"itself","type":"address"},{"name":"totalPayout","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"getParticipantCount","outputs":[{"name":"count","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"inviter","type":"address"}],"name":"enter","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"id","type":"uint256"}],"name":"moveOldUser","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"adr","type":"address"}],"name":"getParticipantByAddress","outputs":[{"name":"inviter","type":"address"},{"name":"itself","type":"address"},{"name":"totalPayout","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"top","outputs":[{"name":"","type":"address"}],"type":"function"},{"inputs":[],"type":"constructor"}]

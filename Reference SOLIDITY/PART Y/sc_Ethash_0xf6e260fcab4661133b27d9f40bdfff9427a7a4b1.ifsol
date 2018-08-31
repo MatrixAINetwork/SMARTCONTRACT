@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"header","type":"bytes32"},{"name":"nonceLe","type":"bytes8"},{"name":"fullSizeIn128Resultion","type":"uint256"},{"name":"dataSetLookup","type":"uint256[]"},{"name":"witnessForLookup","type":"uint256[]"},{"name":"branchSize","type":"uint256"},{"name":"root","type":"uint256"}],"name":"hashimoto","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"merkleRoot","type":"uint128"},{"name":"fullSizeIn128Resultion","type":"uint64"},{"name":"branchDepth","type":"uint64"},{"name":"epoch","type":"uint256"}],"name":"setEpochData","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"rlpHeader","type":"bytes"},{"name":"nonce","type":"uint256"},{"name":"dataSetLookup","type":"uint256[]"},{"name":"witnessForLookup","type":"uint256[]"}],"name":"verifyHash","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"value","type":"uint256"}],"name":"EthashValue","type":"event"}]
