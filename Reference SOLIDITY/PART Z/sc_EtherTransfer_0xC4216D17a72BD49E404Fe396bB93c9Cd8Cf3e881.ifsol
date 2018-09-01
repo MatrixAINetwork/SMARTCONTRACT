@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[],"name":"WithDraw","outputs":[{"name":"","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"ETHAddress","type":"address"}],"name":"SendETH","outputs":[{"name":"","type":"bool"}],"type":"function"},{"constant":true,"inputs":[],"name":"IsEthereum","outputs":[{"name":"","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"ETCAddress","type":"address"}],"name":"SendETC","outputs":[{"name":"","type":"bool"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"From","type":"address"},{"indexed":true,"name":"To","type":"address"},{"indexed":false,"name":"Value","type":"uint256"}],"name":"ETHTransfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"Return","type":"address"},{"indexed":false,"name":"Value","type":"uint256"}],"name":"ETCReturn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"From","type":"address"},{"indexed":true,"name":"To","type":"address"},{"indexed":false,"name":"Value","type":"uint256"}],"name":"ETCTransfer","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"Return","type":"address"},{"indexed":false,"name":"Value","type":"uint256"}],"name":"ETHReturn","type":"event"}]

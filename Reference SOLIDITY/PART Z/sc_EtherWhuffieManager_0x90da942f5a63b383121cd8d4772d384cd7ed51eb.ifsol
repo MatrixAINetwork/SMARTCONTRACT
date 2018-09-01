@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"stats","outputs":[{"name":"positiveWhuffies","type":"uint256"},{"name":"negativeWhuffies","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"message","type":"string"}],"name":"sendNegativeWhuffies","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"message","type":"string"}],"name":"sendPositiveWhuffies","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"whuffies","type":"uint256"},{"indexed":false,"name":"message","type":"string"}],"name":"PositiveWhuffiesSent","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"whuffies","type":"uint256"},{"indexed":false,"name":"message","type":"string"}],"name":"NegativeWhuffiesSent","type":"event"}]

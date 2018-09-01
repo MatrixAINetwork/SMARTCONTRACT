@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"luckyDogInfo","outputs":[{"name":"name","type":"string"}],"type":"function"},{"constant":true,"inputs":[],"name":"underdogPayoutMarkup","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"topDogInfo","outputs":[{"name":"name","type":"string"},{"name":"strength","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"linePosition","type":"uint256"}],"name":"underdogInfo","outputs":[{"name":"name","type":"string"},{"name":"dogAddress","type":"address"},{"name":"deposit","type":"uint256"},{"name":"payout","type":"uint256"},{"name":"scrapBonus","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"underdogPayoutFund","outputs":[{"name":"balance","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"nextUnderdogPayout","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"DogName","type":"string"}],"name":"setName","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"dogFight","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"underdogCount","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"}]

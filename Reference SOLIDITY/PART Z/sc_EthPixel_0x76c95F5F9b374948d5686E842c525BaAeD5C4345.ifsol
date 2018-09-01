@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"pixels","outputs":[{"name":"color","type":"bytes32"},{"name":"amount","type":"uint256"},{"name":"holder","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_coordinates","type":"uint256"},{"name":"_color","type":"bytes32"}],"name":"buyPixel","outputs":[{"name":"","type":"bool"}],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"coordinates","type":"uint256"},{"indexed":false,"name":"color","type":"bytes32"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"holder","type":"address"},{"indexed":false,"name":"boughtFrom","type":"address"}],"name":"PixelBought","type":"event"}]
