@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"weiLimitPerAddress","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"chunkedWeiMultiple","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isCeilingStrategy","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"tentativeAmount","type":"uint256"},{"name":"weiRaised","type":"uint256"},{"name":"weiInvestedBySender","type":"uint256"},{"name":"weiFundingCap","type":"uint256"}],"name":"weiAllowedToReceive","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"newCap","type":"uint256"},{"name":"weiRaised","type":"uint256"}],"name":"relaxFundingCap","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"weiRaised","type":"uint256"},{"name":"weiFundingCap","type":"uint256"}],"name":"isCrowdsaleFull","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"inputs":[{"name":"multiple","type":"uint256"},{"name":"limit","type":"uint256"}],"payable":false,"type":"constructor"}]
