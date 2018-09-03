@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[],"name":"Open","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"proposed_destination","type":"address"}],"name":"Close","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"proposed_destination","type":"address"},{"name":"proposed_amount","type":"uint256"}],"name":"Withdraw","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tezos_pkh_and_chksum","type":"bytes24"}],"name":"Contribute","outputs":[],"payable":true,"type":"function"},{"inputs":[{"name":"init_signer1","type":"address"},{"name":"init_signer2","type":"address"}],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"tezos_pk_hash","type":"bytes20"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Deposit","type":"event"}]
