@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_owner","type":"address"}],"name":"ChangeOwnership","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"CancelRoundAndRefundAll","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"WatchNumberOfPlayerInCurrentRound","outputs":[{"name":"N","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"WatchAppliedFeePercentage","outputs":[{"name":"FeePercent","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"WatchLastTime","outputs":[{"name":"LastTimestamp","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"id","type":"uint256"}],"name":"PlayerInfo","outputs":[{"name":"Address","type":"address"},{"name":"Payout","type":"uint256"},{"name":"UserPaid","type":"bool"}],"type":"function"},{"constant":false,"inputs":[],"name":"CollectAllFees","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"p","type":"uint256"}],"name":"CollectAndReduceFees","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"WatchCollectedFeesInSzabo","outputs":[{"name":"Fees","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"WatchBalance","outputs":[{"name":"TotalBalance","type":"uint256"},{"name":"info","type":"string"}],"type":"function"},{"inputs":[],"type":"constructor"}]

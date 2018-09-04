@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"hash","type":"bytes32"}],"name":"setBounty","outputs":[{"name":"","type":"uint256"}],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"claimIndex","type":"uint256"},{"name":"solution","type":"string"}],"name":"claimBounty","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"collectFees","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"index","type":"uint256"}],"name":"addBountyReward","outputs":[],"payable":true,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"solver","type":"address"},{"indexed":false,"name":"solution","type":"string"},{"indexed":false,"name":"hash","type":"bytes32"}],"name":"HashSolved","type":"event"}]
