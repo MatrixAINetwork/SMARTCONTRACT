@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_sale","type":"address"},{"name":"_token","type":"address"}],"name":"set_addresses","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"sale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_token","type":"address"}],"name":"withdrawToken","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"buy","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"methodId","type":"bytes4"}],"name":"buyWithFunction","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_ICO","type":"address"}],"name":"buyWithAddress","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"developer","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"withdrawETH","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_ICO","type":"address"},{"name":"methodId","type":"bytes4"}],"name":"buyWithAddressAndFunction","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"payable":true,"type":"fallback"}]

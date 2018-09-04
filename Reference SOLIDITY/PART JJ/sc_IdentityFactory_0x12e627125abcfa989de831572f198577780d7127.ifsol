@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"userKey","type":"address"},{"name":"delegates","type":"address[]"},{"name":"longTimeLock","type":"uint256"},{"name":"shortTimeLock","type":"uint256"}],"name":"CreateProxyWithControllerAndRecovery","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"senderToProxy","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"userKey","type":"address"},{"indexed":false,"name":"proxy","type":"address"},{"indexed":false,"name":"controller","type":"address"},{"indexed":false,"name":"recoveryQuorum","type":"address"}],"name":"IdentityCreated","type":"event"}]

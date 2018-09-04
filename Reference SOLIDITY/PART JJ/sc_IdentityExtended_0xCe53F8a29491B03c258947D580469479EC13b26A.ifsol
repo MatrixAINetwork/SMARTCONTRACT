@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_biometricData","type":"bytes32"}],"name":"checkIdentity","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_usaPermission","type":"bool"},{"name":"_euPermission","type":"bool"},{"name":"_chinaPermission","type":"bool"}],"name":"setIdentityExtended","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_sender","type":"address"}],"name":"isIdentity","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_biometricData","type":"bytes32"},{"name":"_name","type":"string"},{"name":"_surname","type":"string"}],"name":"setMyIdentity","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"sender","type":"address"},{"indexed":false,"name":"name","type":"string"},{"indexed":false,"name":"surname","type":"string"},{"indexed":false,"name":"timestamp","type":"uint256"},{"indexed":false,"name":"result","type":"bool"}],"name":"UnlockEvent","type":"event"}]
