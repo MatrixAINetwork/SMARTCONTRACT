@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"institutionAddress","type":"address"},{"name":"institutionName","type":"string"}],"name":"addInstitution","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"institutionAddress","type":"address"}],"name":"getInstitutionByAddress","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":true,"inputs":[{"name":"institutionName","type":"string"}],"name":"getInstitutionByName","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"newAdmin","type":"address"}],"name":"setNewAdmin","outputs":[],"type":"function"},{"inputs":[],"type":"constructor"}]
