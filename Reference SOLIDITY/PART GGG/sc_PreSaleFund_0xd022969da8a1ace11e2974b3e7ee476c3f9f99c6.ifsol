@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"GetInvestedAmount","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"},{"name":"logMsg","type":"bytes32"},{"name":"target","type":"address"},{"name":"currentOwner","type":"address"}],"name":"loggedTransfer","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"min","type":"uint256"}],"name":"SetMin","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"MinInvestment","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"Divest","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"Invest","outputs":[],"payable":true,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"logMsg","type":"bytes32"},{"indexed":false,"name":"target","type":"address"},{"indexed":false,"name":"currentOwner","type":"address"}],"name":"CashMove","type":"event"}]
