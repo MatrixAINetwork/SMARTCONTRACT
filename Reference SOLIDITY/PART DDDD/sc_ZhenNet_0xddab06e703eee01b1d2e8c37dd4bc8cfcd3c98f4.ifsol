@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_a","type":"address"},{"name":"_b","type":"address"},{"name":"s1","type":"bytes32"},{"name":"s2","type":"bytes32"},{"name":"s3","type":"bytes32"},{"name":"s4","type":"bytes32"},{"name":"s5","type":"bytes32"},{"name":"s6","type":"bytes32"},{"name":"s7","type":"bytes32"},{"name":"s8","type":"bytes32"}],"name":"store","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_a","type":"address"},{"indexed":false,"name":"_b","type":"address"},{"indexed":false,"name":"s1","type":"bytes32"},{"indexed":false,"name":"s2","type":"bytes32"},{"indexed":false,"name":"s3","type":"bytes32"},{"indexed":false,"name":"s4","type":"bytes32"},{"indexed":false,"name":"s5","type":"bytes32"},{"indexed":false,"name":"s6","type":"bytes32"},{"indexed":false,"name":"s7","type":"bytes32"},{"indexed":false,"name":"s8","type":"bytes32"}],"name":"ZhenData","type":"event"}]

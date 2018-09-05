@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"pullRequestId","type":"uint256"}],"name":"newRequest","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"remove","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"getLastNonPublished","outputs":[{"name":"pullRequestId","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[],"name":"closeRequest","outputs":[],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"pullRequestId","type":"uint256"}],"name":"InvalidPullRequest","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"pullRequestId","type":"uint256"},{"indexed":false,"name":"timeBeforeDisplay","type":"uint256"},{"indexed":false,"name":"past","type":"bool"}],"name":"PullRequestAlreadyClaimed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"pullRequestId","type":"uint256"},{"indexed":false,"name":"timeBeforeDisplay","type":"uint256"}],"name":"PullRequestClaimed","type":"event"},{"anonymous":false,"inputs":[],"name":"QueueIsEmpty","type":"event"}]
