@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"payoff","type":"uint256"},{"name":"oracle","type":"address"}],"name":"newvow","outputs":[{"name":"vowID","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"numRef","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"vowID","type":"uint256"}],"name":"deposit","outputs":[{"name":"res","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"},{"name":"beneficiary","type":"address"},{"name":"vowID","type":"uint256"}],"name":"withdraw","outputs":[{"name":"res","type":"bool"}],"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"addr","type":"address"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"ref","type":"uint256"}],"name":"depositFlag","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"addr","type":"address"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"balance","type":"uint256"}],"name":"withdrawFlag","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"addr","type":"address"},{"indexed":false,"name":"vowID","type":"uint256"},{"indexed":false,"name":"payoff","type":"uint256"}],"name":"newVowIdFlag","type":"event"}]

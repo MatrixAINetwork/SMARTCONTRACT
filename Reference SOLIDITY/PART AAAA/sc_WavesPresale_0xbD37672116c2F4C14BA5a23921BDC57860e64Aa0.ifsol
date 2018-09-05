@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"txidHash","type":"bytes16"},{"name":"amount","type":"uint256"},{"name":"timestamp","type":"uint256"}],"name":"newSale","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"numberOfSales","outputs":[{"name":"","type":"uint32"}],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes16"}],"name":"sales","outputs":[{"name":"amount","type":"uint256"},{"name":"date","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"totalTokens","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"txidHash","type":"bytes16"}],"name":"getSaleDate","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"changeOwner","outputs":[],"type":"function"},{"inputs":[],"type":"constructor"}]

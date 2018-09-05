@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"companyNameBytes","type":"bytes32"},{"name":"hkg","type":"uint256"}],"name":"buy","outputs":[{"name":"success","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"dstAddress","type":"address"}],"name":"enlist","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getEventStart","outputs":[{"name":"result","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getNow","outputs":[{"name":"result","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getEventEnd","outputs":[{"name":"result","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"companyNameBytes","type":"bytes32"}],"name":"isExistByBytes","outputs":[{"name":"result","type":"bool"}],"payable":false,"type":"function"},{"inputs":[{"name":"hackerGoldAddr","type":"address"},{"name":"eventInfoAddr","type":"address"}],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"dstContract","type":"address"}],"name":"Enlisted","type":"event"}]
