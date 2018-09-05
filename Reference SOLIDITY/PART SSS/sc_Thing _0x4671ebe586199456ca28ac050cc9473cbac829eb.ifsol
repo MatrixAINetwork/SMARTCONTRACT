@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"mimetype","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"kill","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_url","type":"string"},{"name":"_data","type":"string"},{"name":"_mood","type":"uint8"},{"name":"_mimetype","type":"string"}],"name":"thing","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"url","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"reactions","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[],"name":"mood","outputs":[{"name":"","type":"uint8"}],"type":"function"},{"constant":true,"inputs":[],"name":"data","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"reaction","type":"address"}],"name":"react","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"mortal","outputs":[],"type":"function"}]

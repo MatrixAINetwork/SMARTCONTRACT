@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"accountAddress","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"text","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"trueOrFalse","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getData","outputs":[{"name":"_trueOrFalse","type":"bool"},{"name":"_amount","type":"uint256"},{"name":"_accountAddress","type":"address"},{"name":"_storedDataInBytes","type":"bytes32"},{"name":"_text","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_bool","type":"bool"},{"name":"_uint","type":"uint256"},{"name":"_address","type":"address"},{"name":"_bytes","type":"bytes32"},{"name":"_string","type":"string"}],"name":"storeData","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"amount","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"storedDataInBytes","outputs":[{"name":"","type":"bytes32"}],"payable":false,"type":"function"}]

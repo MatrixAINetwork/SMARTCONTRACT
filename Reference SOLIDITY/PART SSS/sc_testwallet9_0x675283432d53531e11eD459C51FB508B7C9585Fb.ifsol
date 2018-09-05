@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"owners","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[],"name":"testwallet8","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"new_owner","type":"address"}],"name":"add_another_owner","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"_delete_","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"lastowner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[],"name":"deposit","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"withdraw_amt","type":"uint256"}],"name":"withdraw_a_bit","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"withdraw_all","outputs":[],"type":"function"}]
