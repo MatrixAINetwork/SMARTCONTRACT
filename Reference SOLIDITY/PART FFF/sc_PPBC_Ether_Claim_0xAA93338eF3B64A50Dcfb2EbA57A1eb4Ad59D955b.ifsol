@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"deposits_refunded","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"total_claim_codes","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"password","type":"string"}],"name":"register_claim","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"password","type":"string"}],"name":"refund_deposits","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"num_claimed","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"password","type":"string"}],"name":"refund_claims","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"password","type":"string"}],"name":"check_redeemed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"end_redeem_period","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":true,"type":"fallback"}]
