@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"amountOfMeatInUnicorn","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"reliabilityPercentage","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"seed","type":"uint256"},{"name":"size","type":"uint256"}],"name":"multiBlockRandomGen","outputs":[{"name":"randomNumber","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"averageAmountOfMeatInAUnicorn","type":"uint256"},{"name":"percentOfThatMeatThatAlwaysDeliver","type":"uint256"}],"name":"changeMeatParameters","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"amountOfUnicorns","type":"uint256"}],"name":"calculateMeat","outputs":[{"name":"amountOfMeat","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"type":"function"},{"inputs":[{"name":"averageAmountOfMeatInAUnicorn","type":"uint256"},{"name":"percentOfThatMeatThatAlwaysDeliver","type":"uint256"}],"type":"constructor"}]
