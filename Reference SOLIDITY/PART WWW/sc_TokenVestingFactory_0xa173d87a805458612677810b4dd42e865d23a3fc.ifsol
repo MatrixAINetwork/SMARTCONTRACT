@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"investorToVesting","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_benificiary","type":"address"},{"name":"_cliff","type":"uint256"},{"name":"_vestingPeriod","type":"uint256"},{"name":"_tokenAddress","type":"address"},{"name":"_periodPercents","type":"uint256[]"}],"name":"createVestingContractWithFloatingPercent","outputs":[{"name":"vestingContract","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_benificiary","type":"address"},{"name":"_cliff","type":"uint256"},{"name":"_vestingPeriod","type":"uint256"},{"name":"_tokenAddress","type":"address"},{"name":"_periodPercent","type":"uint256"}],"name":"createVestingContractWithConstantPercent","outputs":[{"name":"vestingContract","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_creator","type":"address"},{"indexed":true,"name":"_contract","type":"address"}],"name":"VestingContractCreated","type":"event"}]
