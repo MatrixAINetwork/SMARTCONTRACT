@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"tos","type":"address[]"},{"name":"values","type":"uint256[]"}],"name":"transferMulti","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"tos","type":"address[]"},{"name":"values","type":"uint256[]"},{"name":"_releaseTimeSs","type":"uint256[]"}],"name":"transferAndLockMulti","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"tokenAddr","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"froms","type":"address[]"},{"name":"tos","type":"address[]"},{"name":"values","type":"uint256[]"}],"name":"transferFromMulti","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]

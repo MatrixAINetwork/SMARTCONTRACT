@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"symbol","type":"string"},{"name":"price","type":"string"},{"name":"quantity","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"execID","type":"string"}],"name":"publishExecution","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"publisher","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"lastTrade","outputs":[{"name":"symbol","type":"string"},{"name":"price","type":"string"},{"name":"quantity","type":"string"},{"name":"buyer","type":"string"},{"name":"seller","type":"string"},{"name":"execID","type":"string"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"symbol","type":"string"},{"indexed":false,"name":"price","type":"string"},{"indexed":false,"name":"quantity","type":"string"},{"indexed":false,"name":"buyer","type":"string"},{"indexed":false,"name":"seller","type":"string"},{"indexed":false,"name":"execID","type":"string"}],"name":"Execution","type":"event"}]

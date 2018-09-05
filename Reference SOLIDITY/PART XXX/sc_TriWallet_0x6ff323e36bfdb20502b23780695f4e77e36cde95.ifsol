@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"ethWallet","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":true,"inputs":[],"name":"thisIsFork","outputs":[{"name":"","type":"bool"}],"type":"function"},{"constant":false,"inputs":[],"name":"distribute","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"etcWallet","outputs":[{"name":"","type":"address"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"etcWalletAddress","type":"address"}],"name":"ETCWalletCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"ethWalletAddress","type":"address"}],"name":"ETHWalletCreated","type":"event"}]
