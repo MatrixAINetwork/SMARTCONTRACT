@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_record_id","type":"uint256"},{"name":"_hash","type":"bytes16"}],"name":"addWorkRecord","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_subject","type":"address"},{"name":"_record_id","type":"uint256"},{"name":"_hash","type":"bytes16"}],"name":"ownerAddWorkRecord","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_work_token_address","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_subject","type":"address"},{"indexed":true,"name":"_record_id","type":"uint256"},{"indexed":false,"name":"_hash","type":"bytes16"}],"name":"WorkRecord","type":"event"}]

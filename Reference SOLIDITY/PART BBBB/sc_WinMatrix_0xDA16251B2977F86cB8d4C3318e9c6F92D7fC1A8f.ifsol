@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"n","type":"uint16"}],"name":"getCoeff","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"count","type":"uint16"}],"name":"generateWinMatrix","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"deleteContract","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getBetsProcessed","outputs":[{"name":"","type":"uint16"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"}]
