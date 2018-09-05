@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_IndiceIndex","type":"uint32"},{"name":"_log","type":"bool"},{"name":"_Signature","type":"bytes"},{"name":"_Reste","type":"bytes"}],"name":"VerifCert","outputs":[{"name":"status","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_Signature","type":"bytes"},{"name":"_Reste","type":"bytes"}],"name":"VerifSignature","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"AddAuthority","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"destroy","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_IndiceIndex","type":"uint32"},{"name":"_Cert","type":"bytes32"}],"name":"SetCert","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_IndiceIndex","type":"uint32"}],"name":"GetCert","outputs":[{"name":"_Valeur","type":"bytes32"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"Signer","type":"address"},{"indexed":false,"name":"Donnees_Signature","type":"bytes"},{"indexed":false,"name":"Donnees_Reste","type":"bytes"}],"name":"EventNotarise","type":"event"}]

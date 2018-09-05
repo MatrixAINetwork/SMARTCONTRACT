@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"buyer","type":"address"},{"name":"amount_paid","type":"uint256"}],"name":"sell_label","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"get_info","outputs":[{"name":"label","type":"string"},{"name":"price","type":"uint256"},{"name":"owner","type":"address"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"label","type":"string"},{"name":"price","type":"uint256"}],"name":"createSellENS","outputs":[],"payable":false,"type":"function"},{"payable":true,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"sell_ens","type":"address"}],"name":"SellENSCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"sell_ens","type":"address"}],"name":"LabelSold","type":"event"}]

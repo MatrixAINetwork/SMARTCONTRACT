@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"allowedFreeExchanges","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[],"name":"buy100DaoFor1Eth","outputs":[],"type":"function"},{"constant":false,"inputs":[],"name":"requestTokensBack","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"theDao","outputs":[{"name":"","type":"address"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_from","type":"address"},{"indexed":false,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"TransferEvent","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_value","type":"uint256"}],"name":"ReturnEvent","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"trySend","type":"uint256"},{"indexed":false,"name":"available","type":"uint256"}],"name":"NotEnoughEthErrorEvent","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"trySend","type":"uint256"},{"indexed":false,"name":"available","type":"uint256"}],"name":"NotEnoughDaoErrorEvent","type":"event"}]

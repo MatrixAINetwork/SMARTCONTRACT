@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"digitalFingerprint","type":"string"},{"name":"signature","type":"string"}],"name":"addSignature","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"digitalFingerprint","type":"string"}],"name":"removeSignature","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"digitalFingerprint","type":"string"}],"name":"getSignature","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"removeSdaContract","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"institution","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"inputs":[{"name":"_institution","type":"string"}],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"digitalFingerprint","type":"string"},{"indexed":false,"name":"signature","type":"string"},{"indexed":false,"name":"timestamp","type":"uint256"}],"name":"SignatureAdded","type":"event"}]
