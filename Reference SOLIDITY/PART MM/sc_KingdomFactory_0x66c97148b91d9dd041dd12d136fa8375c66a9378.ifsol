@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_kingdomName","type":"string"},{"name":"_world","type":"address"},{"name":"_topWizard","type":"address"},{"name":"_subWizard","type":"address"},{"name":"_startingClaimPriceWei","type":"uint256"},{"name":"_maximumClaimPriceWei","type":"uint256"},{"name":"_claimPriceAdjustPercent","type":"uint256"},{"name":"_curseIncubationDurationSeconds","type":"uint256"},{"name":"_commissionPerThousand","type":"uint256"}],"name":"createKingdom","outputs":[{"name":"newKingdom","type":"address"}],"type":"function"},{"constant":true,"inputs":[{"name":"_startingClaimPriceWei","type":"uint256"},{"name":"_maximumClaimPriceWei","type":"uint256"},{"name":"_claimPriceAdjustPercent","type":"uint256"},{"name":"_curseIncubationDurationSeconds","type":"uint256"},{"name":"_commissionPerThousand","type":"uint256"}],"name":"validateProposedThroneRules","outputs":[{"name":"allowed","type":"bool"}],"type":"function"},{"inputs":[],"type":"constructor"}]
