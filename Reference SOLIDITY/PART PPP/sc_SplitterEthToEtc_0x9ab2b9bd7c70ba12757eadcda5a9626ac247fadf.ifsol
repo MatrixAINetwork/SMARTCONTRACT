@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_id","type":"uint64"}],"name":"processed","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_limit","type":"uint256"}],"name":"setUpLimit","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"seq","outputs":[{"name":"","type":"uint64"}],"type":"function"},{"constant":true,"inputs":[],"name":"upLimit","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"_limit","type":"uint256"}],"name":"setLowLimit","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"_intermediate","type":"address"}],"name":"setIntermediate","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"lowLimit","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint64"}],"name":"received","outputs":[{"name":"from","type":"address"},{"name":"value","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"","type":"uint64"}],"name":"OnReceive","type":"event"}]

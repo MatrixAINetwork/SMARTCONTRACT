@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"hash_db","outputs":[{"name":"publisher","type":"address"},{"name":"stake","type":"uint256"},{"name":"burned","type":"uint256"},{"name":"timestamp","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"hashed_val","type":"bytes32"}],"name":"get_publisher","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"hashed_val","type":"bytes32"}],"name":"publish","outputs":[],"type":"function"},{"constant":true,"inputs":[{"name":"hashed_val","type":"bytes32"}],"name":"get_timestamp","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"hashed_val","type":"bytes32"}],"name":"get_burned","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[{"name":"hashed_val","type":"bytes32"}],"name":"get_stake","outputs":[{"name":"","type":"uint256"}],"type":"function"}]
