@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_hashedKey","type":"bytes32"}],"name":"createGrant","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"_key","type":"bytes32"}],"name":"claimGrant","outputs":[],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"hashedKey","type":"bytes32"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"LogGrantCreated","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"hashedKey","type":"bytes32"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"LogGrantClaimed","type":"event"}]

@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"shasum","type":"bytes32"},{"name":"remarks","type":"string"}],"name":"addRecord","outputs":[{"name":"recordID","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"record","outputs":[{"name":"creator","type":"address"},{"name":"shasum","type":"bytes32"},{"name":"time","type":"uint256"},{"name":"blocknum","type":"uint256"},{"name":"remarks","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"Creator","type":"address"},{"indexed":false,"name":"sha256sum","type":"bytes32"},{"indexed":false,"name":"Remarks","type":"string"},{"indexed":false,"name":"time","type":"uint256"},{"indexed":false,"name":"blocknum","type":"uint256"},{"indexed":true,"name":"RecordID","type":"uint256"}],"name":"LogRebalance","type":"event"}]

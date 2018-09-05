@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"tokenBuyerAddress","type":"address"},{"name":"etherAmount","type":"uint256"},{"name":"tokenAddress","type":"address"},{"name":"tokenAmount","type":"uint256"},{"name":"endTradeBlock","type":"uint256"}],"name":"finalizeTrade","outputs":[],"payable":true,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"address"}],"name":"trades","outputs":[{"name":"tokenAddress","type":"address"},{"name":"tokenAmount","type":"uint256"},{"name":"etherAmount","type":"uint256"},{"name":"etherCollateralAmount","type":"uint256"},{"name":"endTradeBlock","type":"uint256"},{"name":"initialized","type":"bool"},{"name":"finalized","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"otherPersonAddress","type":"address"}],"name":"completeTrade","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"tokenSellerAddress","type":"address"},{"name":"tokenAddress","type":"address"},{"name":"tokenAmount","type":"uint256"},{"name":"etherCollateralAmount","type":"uint256"},{"name":"endTradeBlock","type":"uint256"}],"name":"startTrade","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[{"name":"tokenSellerAddress","type":"address"}],"name":"cancelTrade","outputs":[],"payable":false,"type":"function"}]
