@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"multiplierFactor","outputs":[{"name":"factor","type":"uint256"},{"name":"info","type":"string"}],"type":"function"},{"constant":false,"inputs":[{"name":"newFee","type":"uint256"}],"name":"changeFee","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"totalEntries","outputs":[{"name":"count","type":"uint256"},{"name":"info","type":"string"}],"type":"function"},{"constant":true,"inputs":[{"name":"user","type":"address"}],"name":"userStats","outputs":[{"name":"deposits","type":"uint256"},{"name":"payouts","type":"uint256"},{"name":"info","type":"string"}],"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"changeOwner","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"multi","type":"uint256"}],"name":"changeMultiplier","outputs":[],"type":"function"},{"constant":true,"inputs":[],"name":"currentFee","outputs":[{"name":"feePercentage","type":"uint256"},{"name":"info","type":"string"}],"type":"function"},{"constant":true,"inputs":[{"name":"index","type":"uint256"}],"name":"entryDetails","outputs":[{"name":"user","type":"address"},{"name":"payout","type":"uint256"},{"name":"paid","type":"bool"},{"name":"info","type":"string"}],"type":"function"},{"inputs":[],"type":"constructor"}]
