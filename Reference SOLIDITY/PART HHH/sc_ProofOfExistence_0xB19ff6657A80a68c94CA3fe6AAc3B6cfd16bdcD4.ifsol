@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"docs","outputs":[{"name":"publisher","type":"string"},{"name":"publishedOnUnixTime","type":"uint256"},{"name":"publishedInBlockNumber","type":"uint256"},{"name":"text","type":"string"}],"type":"function"},{"constant":true,"inputs":[],"name":"index","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":true,"inputs":[],"name":"created","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":true,"inputs":[],"name":"manager","outputs":[{"name":"","type":"address"}],"type":"function"},{"constant":false,"inputs":[{"name":"_publisher","type":"string"},{"name":"_text","type":"string"}],"name":"addDoc","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"index","type":"uint256"},{"indexed":true,"name":"publisher","type":"string"},{"indexed":false,"name":"publishedOnUnixTime","type":"uint256"},{"indexed":true,"name":"text","type":"string"}],"name":"DocumentAdded","type":"event"}]

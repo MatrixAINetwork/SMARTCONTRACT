@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_master","type":"address"}],"name":"setMaster","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"join","outputs":[],"payable":true,"type":"function"},{"constant":false,"inputs":[],"name":"collectFee","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":false,"type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_member","type":"address"},{"indexed":false,"name":"_entries","type":"uint256"},{"indexed":false,"name":"_paybackStartNum","type":"uint256"}],"name":"Joined","type":"event"}]

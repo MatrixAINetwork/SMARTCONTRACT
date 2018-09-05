@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_target","type":"address"},{"name":"_data","type":"bytes"}],"name":"createProxy","outputs":[{"name":"proxyContract","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_count","type":"uint256"},{"name":"_target","type":"address"},{"name":"_data","type":"bytes"}],"name":"createManyProxies","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"proxyAddress","type":"address"},{"indexed":false,"name":"targetAddress","type":"address"}],"name":"ProxyDeployed","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"proxyAddresses","type":"address[]"},{"indexed":false,"name":"targetAddress","type":"address"}],"name":"ProxiesDeployed","type":"event"}]

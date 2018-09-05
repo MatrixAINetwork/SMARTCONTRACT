@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"_app","type":"bytes32"},{"name":"_version","type":"bytes32"},{"name":"_index","type":"address"},{"name":"_selectors","type":"bytes4[]"},{"name":"_implementations","type":"address[]"}],"name":"registerAppVersion","outputs":[],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_app","type":"bytes32"},{"name":"_index","type":"address"},{"name":"_selectors","type":"bytes4[]"},{"name":"_implementations","type":"address[]"}],"name":"registerApp","outputs":[],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_new_exec_addr","type":"address"}],"name":"updateExec","outputs":[],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_app_name","type":"bytes32"},{"name":"_current_version","type":"bytes32"},{"name":"_registry_id","type":"bytes32"}],"name":"updateInstance","outputs":[],"payable":false,"stateMutability":"view","type":"function"}]
