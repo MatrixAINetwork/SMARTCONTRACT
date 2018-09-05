@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"IEOs","type":"address[]"}],"name":"getIEOsInfo","outputs":[{"name":"distributedTweiPerIEO","type":"uint256[]"},{"name":"tokenBalancePerIEO","type":"uint256[]"},{"name":"tokenAddressPerIEO","type":"address[]"},{"name":"tokenSymbolPerIEO","type":"bytes32[]"},{"name":"tokenDecimalsPerIEO","type":"uint256[]"},{"name":"totalSupplyPerIEO","type":"uint256[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"source","type":"string"}],"name":"stringToBytes32","outputs":[{"name":"result","type":"bytes32"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"IEO","type":"address"}],"name":"getIEOInfo","outputs":[{"name":"IEOTimes","type":"uint256[3]"},{"name":"IEOStates","type":"bool[4]"},{"name":"rate","type":"uint256[2]"},{"name":"amounts","type":"uint256[5]"},{"name":"tokenDecimals","type":"uint256"},{"name":"tokenAddress","type":"address"},{"name":"symbol","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}]
