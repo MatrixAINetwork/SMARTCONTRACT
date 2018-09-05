@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_currency","type":"string"},{"name":"_amount","type":"uint256"},{"name":"_to","type":"address"}],"name":"issueIOU","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"currencyName","type":"string"},{"name":"currencySymbol","type":"string"},{"name":"decimalUnits","type":"uint8"}],"name":"newCurrency","outputs":[],"type":"function"}]

@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"last","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[{"name":"_guess","type":"uint256"}],"name":"Guess","outputs":[{"name":"","type":"bool"}],"type":"function"},{"constant":false,"inputs":[{"name":"seed","type":"uint256"}],"name":"RandomNumberFromSeed","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[],"name":"RandomNumber","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"inputs":[],"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"random_number","type":"uint256"}],"name":"GeneratedNumber","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"random_number","type":"uint256"},{"indexed":false,"name":"guesser","type":"address"}],"name":"RandomNumberGuessed","type":"event"}]

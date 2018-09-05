@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"betTypes","type":"bytes32"},{"name":"first16","type":"bytes32"},{"name":"second16","type":"bytes32"},{"name":"wheelResult","type":"uint256"}],"name":"getBetResult","outputs":[{"name":"wonAmount","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"processStart","type":"uint256"},{"name":"processEnd","type":"uint256"}],"name":"initPayoutTable","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"first16","type":"bytes32"},{"name":"second16","type":"bytes32"}],"name":"getTotalBetAmount","outputs":[{"name":"totalBetAmount","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]

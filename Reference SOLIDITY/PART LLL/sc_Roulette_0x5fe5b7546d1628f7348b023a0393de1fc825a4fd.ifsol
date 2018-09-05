@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[],"name":"casinoBalance","outputs":[{"name":"","type":"uint256"}],"type":"function"},{"constant":false,"inputs":[],"name":"kill","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"casinoWithdraw","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"number","type":"uint256"}],"name":"betOnNumber","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":false,"inputs":[],"name":"casinoDeposit","outputs":[],"type":"function"},{"constant":false,"inputs":[{"name":"color","type":"uint256"}],"name":"betOnColor","outputs":[{"name":"","type":"string"}],"type":"function"},{"constant":true,"inputs":[],"name":"welcome","outputs":[{"name":"","type":"string"}],"type":"function"},{"inputs":[],"type":"constructor"}]
