@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"_owner","type":"address"},{"name":"_unlockDate","type":"uint256"}],"name":"newTimeLockedWallet","outputs":[{"name":"wallet","type":"address"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_user","type":"address"}],"name":"getWallets","outputs":[{"name":"","type":"address[]"}],"payable":false,"stateMutability":"view","type":"function"},{"payable":false,"stateMutability":"nonpayable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":false,"name":"wallet","type":"address"},{"indexed":false,"name":"from","type":"address"},{"indexed":false,"name":"to","type":"address"},{"indexed":false,"name":"createdAt","type":"uint256"},{"indexed":false,"name":"unlockDate","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"Created","type":"event"}]

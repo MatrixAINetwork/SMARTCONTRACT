@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":false,"inputs":[{"name":"txIdx","type":"uint8"}],"name":"approveTx","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"destAddr","type":"address"}],"name":"proposeTx","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"founders","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"txIdx","type":"uint8"}],"name":"cancelTx","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"txs","outputs":[{"name":"founder","type":"address"},{"name":"destAddr","type":"address"},{"name":"active","type":"bool"}],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"payable":true,"type":"fallback"}]

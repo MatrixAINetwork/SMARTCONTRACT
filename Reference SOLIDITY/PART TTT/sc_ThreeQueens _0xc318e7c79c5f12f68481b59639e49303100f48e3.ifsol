@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"colonies","outputs":[{"name":"food","type":"uint256"},{"name":"materials","type":"uint256"},{"name":"gold","type":"uint256"},{"name":"tunnels","type":"uint256"},{"name":"workers","type":"uint256"},{"name":"warriors","type":"uint256"},{"name":"miners","type":"uint256"},{"name":"spawningType","type":"uint8"},{"name":"lastSpawnBN","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"playerID","type":"uint8"}],"name":"claimQueen","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"spawnType","type":"uint8"}],"name":"setSpawnType","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"spawn","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"Queens","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"}]
