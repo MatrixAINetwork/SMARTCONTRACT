@@ -1,0 +1,8 @@
+/**********************************************************************
+*These solidity codes have been obtained from Etherscan for extracting
+*the smartcontract related info.
+*The data will be used by MATRIX AI team as the reference basis for
+*MATRIX model analysis,extraction of contract semantics,
+*as well as AI based data analysis, etc.
+**********************************************************************/
+[{"constant":true,"inputs":[{"name":"x","type":"uint256"}],"name":"formula","outputs":[{"name":"y","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"numWinners","type":"uint256"}],"name":"calculateStep","outputs":[{"name":"step","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"bet","type":"uint256"},{"name":"numPlayers","type":"uint256"}],"name":"calcaultePrizes","outputs":[{"name":"prizes","type":"uint256[50]"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"numPlayers","type":"uint256"}],"name":"getNumWinners","outputs":[{"name":"numWinners","type":"uint16"},{"name":"numFixedAmountWinners","type":"uint16"}],"payable":false,"stateMutability":"pure","type":"function"},{"constant":true,"inputs":[{"name":"totalAmount","type":"uint256"}],"name":"getPrizeAmount","outputs":[{"name":"result","type":"uint256"}],"payable":false,"stateMutability":"pure","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"","type":"uint256"}],"name":"Debug","type":"event"}]
